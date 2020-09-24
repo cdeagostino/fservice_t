@@ -1,0 +1,43 @@
+.tableRG{
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    color:white;
+}
+
+.tableRG thead tr{
+    background: #e66c35;
+}
+
+.tableRG th, .tableRG td{
+  border:0px;
+}
+
+.tableRG .enc_td td{
+  color:white !important;
+}
+
+.tableRG td{
+  color:black;
+}
+
+.tableRG tbody tr{
+    font-size: 15px;
+    color: #808080;
+    line-height: 1.2;
+    font-weight: unset;
+    background-color: white !important;
+}
+
+.tableRG tbody tr:nth-child(even) {
+  background-color: #f5f5f5 !important;
+}
+
+.contenedor_tabla{
+  margin-top:25px;
+}
+
